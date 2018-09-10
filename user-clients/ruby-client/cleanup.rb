@@ -4,17 +4,29 @@ require_relative "./MatrixManager.rb"
 matrix = MatrixManager.new
 
 #Code here!
-xstart = 235
-ystart = 35
+xstart = 237
+ystart = 37
 color = "8E44AD"
-xend = 209
-yend = 10
-size = 25
+xend = 208
+yend = 8
+# size = 24
 matrix.clear_queue
 
-badPixelsArray = []
+badPixelsArray = [{"x"=>235, "y"=>31, "color"=>"17202A"},
+{"x"=>235, "y"=>12, "color"=>"17202A"},
+{"x"=>232, "y"=>11, "color"=>"17202A"},
+{"x"=>230, "y"=>21, "color"=>"17202A"},
+{"x"=>230, "y"=>14, "color"=>"17202A"},
+{"x"=>229, "y"=>30, "color"=>"17202A"},
+{"x"=>228, "y"=>20, "color"=>"17202A"},
+{"x"=>227, "y"=>15, "color"=>"17202A"},
+{"x"=>221, "y"=>30, "color"=>"17202A"},
+{"x"=>217, "y"=>25, "color"=>"17202A"}]
 
 while 1==1
+
+
+
   badpixels = 0
 
   if badPixelsArray.length != 0

@@ -4,8 +4,8 @@ require_relative "./MatrixManager.rb"
 matrix = MatrixManager.new
 
 #Code here!
-xstart = 462
-ystart = 683
+xstart = 684
+ystart = 386
 color = "8E44AD"
 xstartadj = xstart / 1.5
 ystartadj = ystart / 1.5
